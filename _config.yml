@@ -68,13 +68,13 @@ kramdown:
 # Netease settings
 netease_comment: false
 
-gitalk:
-   enable: true
-   owner: yizibi
-   repo: yizibi.github.io
-   clientID: 3e12c08c2ec52afbcb30
-   clientSecret: c2a74d279e7b42cf782a1d2d1b5a410d27c5ab57
-   admin: yizibi
+# gitalk:
+#   enable: true
+#   owner: yizibi
+#   repo: yizibi.github.io
+#   clientID: 3e12c08c2ec52afbcb30
+#   clientSecret: c2a74d279e7b42cf782a1d2d1b5a410d27c5ab57
+#   admin: yizibi
 
 
 # Analytics settings
@@ -82,14 +82,14 @@ gitalk:
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-124793396-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto
+# ga_track_id: 'UA-124793396-1'            # Format: UA-xxxxxx-xx
+# ga_domain: auto
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: “大圣，此去欲何？”<br>“踏南天，碎凌霄”<br>“如若一去不回……？”<br>“便一去不回！💪"
+sidebar-about-description: “心愈安静，”<br>“虑愈深远。”<br>"
 sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
