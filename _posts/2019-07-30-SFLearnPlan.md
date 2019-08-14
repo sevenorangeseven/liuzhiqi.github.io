@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:  写作计划
+title: 写作计划
 subtitle: 
 date:     2019-07-30 08:13:29
 header-img: "img/home-bg-o.jpg"
