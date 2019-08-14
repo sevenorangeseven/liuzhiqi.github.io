@@ -31,7 +31,6 @@ header-img: "img/tag-bg.jpg"
 			</div>
 				<!-- Tags (as filter) -->
 					{% capture tags %}
-					{% for tag in site.tags %}
 					<a data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
 						data-encode="{{ tag[0] | strip | url_encode }}"
 						class="tag-button"
