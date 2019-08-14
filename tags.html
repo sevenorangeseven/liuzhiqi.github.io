@@ -29,18 +29,6 @@ header-img: "img/tag-bg.jpg"
 				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 				{% endfor %}
 			</div>
-				<!-- Tags (as filter) -->
-					{% capture tags %}
-						data-encode="{{ tag[0] | strip | url_encode }}"
-						class="tag-button"
-						title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-						{{ tag[0] }}
-						<sup>{{tag[1].size}}</sup>
-					</a>
-					{% endfor %}
-					{% endcapture %}
-	        {{ tags | split:'</a>' | sort | join:'</a>' }}
-				</div>
 
             <!--<blockquote class="tag-comments">
                 标签命名规范：
