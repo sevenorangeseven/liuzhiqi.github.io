@@ -30,12 +30,6 @@ header-img: "img/tag-bg.jpg"
 				{% endfor %}
 			</div>
 				<!-- Tags (as filter) -->
-				<div id='tag_cloud' class="tags tags-sup js-tags">
-					<a class="tag-button--all" data-encode="">
-						Show All
-						<sup>{{site.posts.size}}</sup>
-					</a>
-
 					{% capture tags %}
 					{% for tag in site.tags %}
 					<a data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
