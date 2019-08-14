@@ -53,7 +53,7 @@ header-img: "img/tag-bg.jpg"
 				  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 				  </li> -->
 				 <div class="post-preview">
-				    <a href="{{ post.date | date: ‘%Y-%-m-%-d’ post.url | prepend: site.baseurl }}">
+				    <a href="{{ post.url | prepend: site.baseurl }}">
 				        <h2 class="post-title">
                             {{ post.title }}
 				        </h2>
