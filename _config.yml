@@ -1,11 +1,11 @@
 # Site settings
-title: GUIGU
-SEOTitle: 刘凌辉的博客
+title: SevenorangeSeven
+SEOTitle: 刘芷琪的博客
 header-img: img/home-bg.jpg
-email: liulinghui.top@gmail.com
+email: 1412325969@qq.com
 description: ""
 keyword: ""
-url: "https://liulinghui.github.io/"              # your host, for absolute URL
+url: "https://sevenorangeseven.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
