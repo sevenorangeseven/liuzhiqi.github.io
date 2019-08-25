@@ -71,7 +71,7 @@ layout: default
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
-
+    
                 <!-- Multi-Lingual -->
                 {% if page.multilingual %}
                 <!-- Language Selector -->
@@ -86,37 +86,40 @@ layout: default
 
 
                 <hr style="visibility: hidden;">
-
+    
             <!-- 打赏功能 -->
             <div>
                 <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
                 <div>☛谢谢鼓励☚</div>
                 <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-                    <span>打赏</span>
+                    <span>赞赏</span>
                 </button>
                 <div id="QR" style="display: none;">
-                        
-                        
+
+
+​                        
                 <div id="wechat" style="display: inline-block">
-                <img id="wechat_qr" src="/img/payimg/weipayimg.jpg" alt="yizibi 微信支付"/>
+                <img id="wechat_qr" src="/img/payimg/weipayimg.jpg" alt="微信支付"/>
                             <p>微信支付</p>
                 </div>
-                        
-                        
-                        
+
+
+​                        
+​                        
                 <div id="alipay" style="display: inline-block">
-                <img id="alipay_qr" src="/img/payimg/alipayimg.jpg" alt="yizibi 支付宝"/>
+                <img id="alipay_qr" src="/img/payimg/alipayimg.jpg" alt="支付宝"/>
                 <p>支付宝</p>
                 </div>
-                        
-                        
-                        
-                        
+
+
+​                        
+​                        
+​                        
                 </div>
                 </div>
                 
             </div>
-            
+
 
    <!--  上一篇或者下一篇post按钮 -->
                 <ul class="pager">
@@ -181,7 +184,7 @@ layout: default
                 </div>
                 {% endif %}
             </div>  
-
+    
     <!-- Side Catalog Container -->
         {% if page.catalog %}
             <div class="
@@ -198,13 +201,13 @@ layout: default
                 </div>
             </div>
         {% endif %}
-
+    
     <!-- Sidebar Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 sidebar-container">
-
+    
                 <!-- Featured Tags -->
                 {% if site.featured-tags %}
                 <section>
@@ -221,7 +224,7 @@ layout: default
         			</div>
                 </section>
                 {% endif %}
-
+    
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>
@@ -235,9 +238,9 @@ layout: default
             </div>
         </div>
     </div>
-    
 
-    
+
+​    
 </article>
 <!-- 大图浏览 -->
 <!-- {% include clickable-image.html %} -->
