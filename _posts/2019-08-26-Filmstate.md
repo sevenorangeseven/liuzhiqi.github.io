@@ -1,5 +1,4 @@
-
-
+---
 layout:     post
 title: 浅评网络电影现象
 subtitle: 
@@ -8,7 +7,7 @@ date:  2019-08-26 01:24:04
 header-img: "img/home-bg-o.jpg"
 tags: 
 
-- 
+---
 
 # 浅评网络电影现象
 
